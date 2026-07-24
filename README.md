@@ -10,7 +10,7 @@ SynVid is a local-first macOS screen studio with movable camera PiP, independent
 
 ## Requirements
 
-- A Mac running macOS 26 or later.
+- A Mac running macOS 26.5 or later.
 - Permission to install software on the Mac.
 
 ## First install
@@ -18,15 +18,11 @@ SynVid is a local-first macOS screen studio with movable camera PiP, independent
 1. Download [SynVid.pkg](https://github.com/synryzen/SynVid/releases/latest/download/SynVid.pkg).
 2. Open the downloaded package and follow the macOS installer prompts.
 3. Launch SynVid from Applications and grant only the capture permissions needed for your workflow.
-4. Keep SynVid up to date by downloading the current package from the link above.
+4. In SynVid, choose **Check for Updates** to install signed updates in the app. If in-app updating is unavailable, download the current package from the [stable package URL](https://github.com/synryzen/SynVid/releases/latest/download/SynVid.pkg).
 
 ## Privacy
 
 SynVid is local-first: recordings and editing projects stay on your Mac unless you choose to export or share them. Capture permissions are requested by macOS and can be reviewed or revoked in System Settings. Do not upload private recordings, credentials, or unredacted diagnostic material to GitHub issues; email [support@synryzen.com](mailto:support@synryzen.com) for privacy-sensitive help.
-
-## Screenshot gallery
-
-_Screenshots will be added here in Task 7._
 
 ## Verify the package
 
