@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security or privacy report
+    url: mailto:support@synryzen.com
+    about: Please report security and privacy-sensitive concerns privately by email.
+  - name: SynVid support
+    url: mailto:support@synryzen.com
+    about: Contact support for help that should not be posted publicly.

@@ -1,0 +1,70 @@
+name: Bug report
+description: Report a reproducible SynVid problem without sensitive material.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Do not upload private recordings, credentials, license information, OAuth tokens,
+        complete crash logs, or unredacted diagnostic bundles. Contact support@synryzen.com
+        for anything security- or privacy-sensitive.
+  - type: input
+    id: synvid-version
+    attributes:
+      label: SynVid version
+      description: Enter the version shown in SynVid.
+      placeholder: "For example: 1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      description: Enter your macOS version.
+      placeholder: "For example: macOS 26.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: capture-mode
+    attributes:
+      label: Capture mode
+      options:
+        - Screen recording
+        - Window recording
+        - Camera PiP
+        - Audio capture
+        - Editing or export
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual behavior
+      description: What happened instead? Please sanitize all details.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Reproduction steps
+      description: Give the smallest safe set of steps that reproduces the issue.
+    validations:
+      required: true
+  - type: checkboxes
+    id: sanitized-attachments
+    attributes:
+      label: Sanitized attachments
+      description: Confirm that any attachment or pasted text has been sanitized.
+      options:
+        - label: I confirm that I have not included private recordings, credentials, license information, tokens, complete crash logs, or unredacted diagnostic bundles.
+          required: true
