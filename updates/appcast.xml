@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>SynVid</title>
+        <item>
+            <title>1.0</title>
+            <pubDate>Fri, 24 Jul 2026 10:12:46 -0500</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/synryzen/SynVid/releases/download/v1.0/SynVid-update.dmg" length="28310294" type="application/octet-stream" sparkle:edSignature="QVsAL66KXKOJzy/OgodJbcBbZZdEunPT9aImG0M6ZQjLDR4ZbKf8j+nIY7OrR8UqA0hJfgKizO7ULkFubRH8CQ=="/>
+        </item>
+    </channel>
+</rss>
+<!-- sparkle-signatures:
+edSignature: 7glm8c0y44Yc6+2MVGhfURZWW3eg6zmtbSG3ILoaUrnffcBo6jjD8p6dl7Fm0dCft8N253NA0cu+k+iGhZd+Bg==
+length: 786
+-->
