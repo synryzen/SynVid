@@ -3,6 +3,14 @@
     <channel>
         <title>SynVid</title>
         <item>
+            <title>1.0.1</title>
+            <pubDate>Fri, 24 Jul 2026 13:37:19 -0500</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/synryzen/SynVid/releases/download/v1.0.1/SynVid-update.dmg" length="28310353" type="application/octet-stream" sparkle:edSignature="WJ7qX8KJmSeoSAveztL+/IkSkKo/y1YcpJD1Ek6EqdM5ouPioRUmqH/zncpKTgMvLd1rRvQV+WijAjZMNwYqAw=="/>
+        </item>
+        <item>
             <title>1.0</title>
             <pubDate>Fri, 24 Jul 2026 10:12:46 -0500</pubDate>
             <sparkle:version>1</sparkle:version>
@@ -13,6 +21,6 @@
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 7glm8c0y44Yc6+2MVGhfURZWW3eg6zmtbSG3ILoaUrnffcBo6jjD8p6dl7Fm0dCft8N253NA0cu+k+iGhZd+Bg==
-length: 786
+edSignature: h+6+NKu1lu5bYB9H+5A1mBrAgAOIhPhfFF/jy764H5Zt5wKUWSsm3L5jRcrqteqMsycp2+Ojxm95DXckiH0SBw==
+length: 1385
 -->
